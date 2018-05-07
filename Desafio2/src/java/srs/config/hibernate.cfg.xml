@@ -48,9 +48,11 @@ Contributor(s):
     <property name="hibernate.connection.password">root</property>
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.format_sql">true</property>
+    <property name="hibernate.current_session_context_class">thread</property>
     <mapping class="srs.entidades.Reserva"/>
     <mapping class="srs.entidades.HistoricoReserva"/>
     <mapping class="srs.entidades.Sala"/>
     <mapping class="srs.entidades.Usuario"/>
+    <mapping resource="srs/entidades/Reserva.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

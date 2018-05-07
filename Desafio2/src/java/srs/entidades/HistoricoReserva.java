@@ -5,7 +5,6 @@
  */
 package srs.entidades;
 
-import java.io.Serializable;
 import java.sql.Date;
 import javax.persistence.*;
 
@@ -17,7 +16,7 @@ import javax.persistence.*;
 @Entity
 public class HistoricoReserva{
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int idHistoricoReserva;
     
     private Usuario usuario;

@@ -13,9 +13,9 @@ import javax.persistence.*;
  */
 @Entity
 public class Sala {
-    
+
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int idSala;
     private String tipoSala;
     private String status;
@@ -79,5 +79,5 @@ public class Sala {
     public void setNumero(String numero) {
         this.numero = numero;
     }
-    
+
 }

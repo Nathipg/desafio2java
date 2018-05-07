@@ -19,7 +19,7 @@ import javax.persistence.*;
 public class Reserva {
     
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int idReserva;
     
     @Column(nullable = false)

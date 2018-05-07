@@ -14,24 +14,24 @@ import javax.persistence.*;
 public class Usuario {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int idUsuario;
-    
+
     @Column(nullable = false)
     private String cpf;
-    
+
     @Column(nullable = false)
     private String nome;
-    
+
     @Column(nullable = false)
     private String sobrenome;
-    
+
     @Column(nullable = false)
     private String departamento;
-    
+
     @Column(nullable = false)
     private String funcao;
-    
+
     @Column(nullable = false)
     private String senha;
 
