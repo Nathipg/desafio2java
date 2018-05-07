@@ -14,7 +14,7 @@
     </head>
     <body>
         <h1>Usuários:</h1>
-        <form method="get" action="<%= request.getContextPath()%>/UsuarioServlet.jsp">
+        <form method="get" action="<%= request.getContextPath()%>/UsuarioServlet">
             <div>
                 <label for="idUsuario">
                     "Usuário"
