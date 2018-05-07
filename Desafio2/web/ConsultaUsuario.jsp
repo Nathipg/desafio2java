@@ -16,9 +16,7 @@
         <h1>Usuários:</h1>
         <form method="get" action="<%= request.getContextPath()%>/UsuarioServlet">
             <div>
-                <label for="idUsuario">
-                    "Usuário"
-                </label>
+                <label for="idUsuario">Usuário:</label>
                 <input id="idUsuario" nome="idUsuario" type="text" placeholder="Id do usuário">
             </div>
             <div>
