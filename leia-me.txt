@@ -1,0 +1,13 @@
+
+Laionel Lellis
+Nathália Pissuti
+
+Caso:
+
+O sistema deve ser capaz de gerenciar a reserva de salas como por exemplo salas de reunião, laboratórios de informática, salas de vídeo, auditórios etc.
+Para o usuário reservar uma sala este deve estar previamente cadastrado no sistema com, no mínimo, as seguintes informações: CPF, nome, sobrenome, departamento, função e senha (para acesso ao sistema);
+As salas também devem ser cadastradas no sistema com nome, tipo de sala, status (a sala pode estar disponível ou não; caso esteja em reforma ou em manutenção, por exemplo), descrição, local, número da sala e estado de conservação;
+Não pode haver mais de uma reserva para a mesma sala no mesmo dia, e um usuário apenas pode reservar uma sala por dia;
+Os registros de reservas devem permitir identificar a sala reservada, o dia reservado e o usuário que solicitou a reserva;
+Ao término do uso o usuário deve registrar o estado de conservação da sala podendo ser estes: “em ordem”, “precisa manutenção” (necessário detalhar a manutenção), “precisa limpeza”. Os estados de conservação “precisa de manutenção” e “precisa de limpeza” devem colocar a sala automaticamente indisponível para reservas e permanecer neste estado até que o administrador seja informado que as ações necessárias para disponibilizar a sala já ocorreram.
+Ao chegar na sala e encontrar alguma irregularidade o usuário pode utilizar o sistema para registrar o problema e assim evitar qualquer acusação de má conservação por sua parte.
